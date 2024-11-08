@@ -8,7 +8,7 @@ const PORT = 5002;
 const apiKey = process.env.API_KEY;
 
 // Enable CORS for your frontend
-// app.use(cors({ origin: "http://localhost:5173" })); for local
+// app.use(cors({ origin: "http://localhost:5173" }));  
 
 app.use(cors({ origin: "https://u-care.netlify.app" }));
 
